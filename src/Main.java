@@ -73,7 +73,7 @@ public class Main {
         }
         System.out.println("================Копирование документа  завершено.===============");
     }
-    }
+ }
 
     public static void main(String[] args) {
 
@@ -106,7 +106,6 @@ System.out.println("\n\n2. Задача. МФУ. 1.сканирование, 2.�
         new Thread(() -> mfu.print("B", 6)).start();
         new Thread(() -> mfu.print("C", 4)).start();
         new Thread(() -> mfu.copy("E", 3)).start();
-
     }
 }
 
